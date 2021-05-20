@@ -62,25 +62,25 @@ public class IntCollector {
     }
 
     //-------------------------------------------------------------------------------------------
-    public static void main(String[] args) {
-        IntCollector inco = new IntCollector(new int[]{40, 90, 50});
-        System.out.println("get = " + Arrays.toString(inco.getArray()));
-
-        inco.setArray(new int[]{10, 50, 60});
-        System.out.println("set = " + Arrays.toString(inco.getArray()));
-
-        inco.add(50);
-        System.out.println("add = " + Arrays.toString(inco.getArray()));
-
-        System.out.println("50の個数は"+inco.countOf(50));
-
-        System.out.println("indexの個数は"+ inco.indexOf(60));
-
-        inco.remove(2);
-        System.out.println("remove = " + Arrays.toString(inco.getArray()));
-
-        inco.print();
-    }
+//    public static void main(String[] args) {
+//        IntCollector inco = new IntCollector(new int[]{40, 90, 50});
+//        System.out.println("get = " + Arrays.toString(inco.getArray()));
+//
+//        inco.setArray(new int[]{10, 50, 60});
+//        System.out.println("set = " + Arrays.toString(inco.getArray()));
+//
+//        inco.add(50);
+//        System.out.println("add = " + Arrays.toString(inco.getArray()));
+//
+//        System.out.println("50の個数は"+inco.countOf(50));
+//
+//        System.out.println("indexの個数は"+ inco.indexOf(60));
+//
+//        inco.remove(2);
+//        System.out.println("remove = " + Arrays.toString(inco.getArray()));
+//
+//        inco.print();
+//    }
 //-------------------------------------------------------------------------------------------
 
 }
